@@ -11,12 +11,12 @@ export const getKitties = () => dispatch => {
 
     // fetch data
     axios
-        .get('http://placekitten.com/400/287')
+        .get('https://aws.random.cat/meow')      
         .then( res=> {
             console.log('res', res);
             dispatch({ 
                 type: SUCCESS,
-                payload: res.data
+                payload: res.data.file
             })
         }) 
            .catch(err => {

@@ -10,13 +10,13 @@ const Kitties = ({ getKitties, pic, isFetching, error }) => {
     if(error) {
         return<h2>{error}</h2>
     }
-return (
+  return (
     <div className='kitties'>
-        <h2>How Cute Am I?: {pic}</h2>
+        <img src={pic} alt='cats'/><br></br>
         <button onClick={getKitties}>Show Me More Kitties!</button>
     </div>
- );
-};
+   );
+ };
 
 const mapStateToProps = state => {
     return {

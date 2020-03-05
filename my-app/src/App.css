@@ -1,12 +1,17 @@
 .App {
   text-align: center;
+  background-image: url('./images/laser_cats.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vH;
+  min-height: 100vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
+} */
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,17 +27,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
+} */
+/* 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+img {
+  border-radius: 20%;
+  size: 70vH;
 }
